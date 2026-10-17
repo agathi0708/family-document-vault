@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded documents
+uploads/
+
+# Generated files
+media/
+logs/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+# FamilyVault private data and backups
+/backend/storage_files/
+/backend/family_vault_backup.dump
+/backend/.env
+/backend/venv/
+
+# Python generated files
+**/__pycache__/
+*.py[cod]
+
+# Database and backup files
+*.dump
+*.backup
+*.bak
+
+# Local database troubleshooting scripts
+/backend/check_users.py
+/backend/check_family_db.py
+/backend/reset_test_password.py
+
+# Local test artifacts
+/backend/familyvault_permission_test.txt
+/backend/test-upload.txt
+/backend/ocr_test.png
